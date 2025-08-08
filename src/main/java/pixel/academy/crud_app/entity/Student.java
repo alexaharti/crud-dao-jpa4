@@ -28,12 +28,12 @@ public class Student {
 
     public Student(String firstName, String lastName, String email) {
         this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
+        this.lastName  = lastName;
+        this.email     = email;
 
     }
 
-    //definirea geters/setters
+    //definire getters/setters
 
     public int getId() {
         return id;
@@ -59,6 +59,7 @@ public class Student {
     public void setEmail(String email) {
         this.email = email;
     }
+
     @Override
     public String toString() {
         return "Student {id=" + id +
